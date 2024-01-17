@@ -1,13 +1,17 @@
-function App() {
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import TaskBorard from './components/TaskBorard';
+
+export default function App() {
 	return (
 		<>
-			<div className="flex justify-center items-center w-full h-screen bg-gray-900">
-				<h1 className="text-3xl font-bold text-center text-blue-400">
-					Vite + React + Tailwind CSS
-				</h1>
+			<Header />
+			<div className="flex flex-col justify-center items-center">
+				<Hero />
+				<TaskBorard />
 			</div>
+			<Footer />
 		</>
 	);
 }
-
-export default App;
