@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Hero() {
 	return (
 		<section className="pb-[114px] pt-20 md:mt-[100px]">
